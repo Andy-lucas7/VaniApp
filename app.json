@@ -13,17 +13,26 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kiochii.VaniDog"
     },
     "android": {
+      "package": "com.kiochii.VaniDog",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
-        "package": "com.lucas.vaniapp"
+        "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8549bac7-2bb3-4022-90c4-ca53713ef13c"
+      }
+    },
+    "cli": {
+      "appVersionSource": "project"
     }
   }
 }
